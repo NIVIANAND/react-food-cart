@@ -1,0 +1,24 @@
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.cart-pdt{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+    border:1px solid #ccc;
+}
+.cart-pdt .img{
+    width: 100px;
+    height: 100px;
+}
+.cart-pdt .img img{
+    width: 100%;
+    height: 100%;
+}
+.cart-heading,.cart-price{
+    font-size: 20px;
+    font-family:600 ;
+}

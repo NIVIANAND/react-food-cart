@@ -1,0 +1,42 @@
+.pdt{
+    width:200px;
+    height:250px;
+    border: 1px solid #ccc;
+}
+.pdt .img{
+    width: 100%;
+    height: 120px;
+}
+.pdt .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.details{
+    padding: 5px;
+
+}
+.details h3{
+    margin-bottom: 10px;
+    font-size: 14px;
+
+}
+.details button{
+    padding: 5px 5px;
+    margin-top: 5px;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.details button:hover{
+    background-color: rgb(2, 82, 82);
+}
+.details p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #888;
+}
+.btn-rmv{
+    background-color: rgb(205, 62, 62) !important;
+}
